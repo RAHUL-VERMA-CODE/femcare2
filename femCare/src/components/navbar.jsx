@@ -72,7 +72,7 @@ const Navbar = () => {
                 <ul className="absolute left-0 mt-2 w-64 bg-white text-gray-900 shadow-lg rounded-md p-2 border border-gray-200 z-50 transition-opacity duration-300 ease-in-out opacity-100">
                   <li className="flex items-center gap-2 hover:bg-teal-100 p-2 rounded text-teal-800 cursor-pointer"><FaFileMedical /><a onClick={() => navigator("/Medical-Report-Scanner")}  >Medical Report Scanner</a></li>
                   <li className="flex items-center gap-2 hover:bg-teal-100 p-2 rounded text-teal-800 cursor-pointer"><FaSpa /><a onClick={() => navigator("/yoga")}>Personalized Yoga</a></li>
-                  <li className="flex items-center gap-2 hover:bg-teal-100 p-2 rounded text-teal-800 cursor-pointer"><FaUserMd /><a onClick={() => navigator("/consultantPage")}>Free Health Consultation</a></li>
+                  <li className="flex items-center gap-2 hover:bg-teal-100 p-2 rounded text-teal-800 cursor-pointer"><FaUserMd /><a onClick={() => navigator("/consultantPage")}> Health Consultation</a></li>
                   <li className="flex items-center gap-2 hover:bg-teal-100 p-2 rounded text-teal-800 cursor-pointer"><FaHeartbeat /><a onClick={() => navigator("/tools")}>Health & Pregnancy Tools</a></li>
                   <li className="flex items-center gap-2 hover:bg-teal-100 p-2 rounded text-teal-800 cursor-pointer"><FaRobot /><a href="/chatbot">Instant AI Chatbot</a></li>
                 </ul>

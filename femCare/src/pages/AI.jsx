@@ -203,7 +203,7 @@ function AI() {
                 type="text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Ask about carbon emissions..."
+                placeholder="Ask about maternity and period..."
                 className="flex-1 bg-transparent px-3 py-2 outline-none text-gray-800 dark:text-gray-200"
                 disabled={isLoading}
               />

@@ -3,7 +3,7 @@ import FemcareChatbot from "../components/chatbot/FemCareChatbot.jsx";
 import Navbar from "../components/navbar";
 import img1 from "../assets/ovulationCal.png";
 import img2 from "../assets/babble.png";
-import img3 from "../assets/genderPredictor.jpg";
+
 import img4 from "../assets/babyNamesFinder.png";
 import img5 from "../assets/weightCal.png";
 import img6 from "../assets/birthPlan.png";
@@ -17,7 +17,7 @@ import img12 from "../assets/childHeight.png";
 const tools = [
   { title: "Ovulation Calculator", image: img1 },
   { title: "Due Date Calculator", image: img2 },
-  { title: "Chinese Gender Predictor", image: img3 },
+
   { title: "Baby Names Finder", image: img4 },
   { title: "Pregnancy Weight Gain Calculator", image: img5 },
   { title: "Birth Plan Worksheet", image: img6 },
