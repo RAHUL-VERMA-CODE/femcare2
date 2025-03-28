@@ -56,8 +56,8 @@ const Navbar = () => {
       <div className={`${isMenuOpen ? "block" : "hidden"} w-full lg:w-auto lg:flex lg:items-center lg:mt-0 mt-4`}>
         <nav>
           <ul className="flex flex-col lg:flex-row gap-6 text-white font-semibold lg:items-center lg:ml-auto">
-            <li><a href="/" className="hover:text-cyan-300">Home</a></li>
-            <li><a href="/" className="hover:text-cyan-300">About Us</a></li>
+            <li><a href="/" className="hover:text-cyan-300 cursor-pointer">Home</a></li>
+            <li><a onClick={() => navigator("/aboutUs")}className="hover:text-cyan-300 cursor-pointer">About Us</a></li>
             <li><a onClick={() => navigator("/periodtracker")} className="hover:text-cyan-300 cursor-pointer">Period Tracker</a></li>
             <li className="relative dropdown">
               <button 

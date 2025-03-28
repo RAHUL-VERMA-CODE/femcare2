@@ -13,6 +13,7 @@ import DoctorsList from "./pages/DoctorCard.jsx";
 import AI from "./pages/AI.jsx";
 import PeriodTracker from "./pages/PeriodTracker.jsx";
 // import PeriodTracker from "./pages/PeriodTracker.jsx";
+import AboutUs from "./pages/aboutUs.jsx";
 function App() {
   return (
     
@@ -31,7 +32,7 @@ function App() {
       <Route path="/doctors" element={<DoctorsList />}></Route>
       <Route path="/chatbot" element={<AI />}></Route>
       <Route path="/periodtracker" element={<PeriodTracker />}></Route>
-     
+      <Route path="/aboutUs" element={<AboutUs />}></Route>
     </Routes>
   );
 }
